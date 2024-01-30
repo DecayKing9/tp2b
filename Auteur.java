@@ -8,7 +8,7 @@ public class Auteur{
     private int perfDrame;
     private String citDrame;
 
-    public Auteur (nom, perfTrage, citTrage, perfCome, citCome, perfDrame, citDrame){
+    public Auteur (String nom, int perfTrage, String citTrage, int perfCome, String citCome, int perfDrame, String citDrame){
         this.nom = nom;
         this.perfTrage = perfTrage;
         this.citTrage = citTrage;
@@ -18,8 +18,12 @@ public class Auteur{
         this.citDrame = citDrame;
     }
 
-    public void getQualitéTragédie(){
+    public int getQualitéTragédie(){
         return this.perfTrage;
+    }
+
+    public String getCitationTragédie(){
+        return this.citTrage;
     }
 
     @Override
