@@ -22,5 +22,8 @@ public class Auteur{
         return this.perfTrage;
     }
 
-    
+    @Override
+    public String toString(){
+        return "L'honnorable" + nom;
+    }
 }
