@@ -1,4 +1,4 @@
-// import dionysies.Tournoi;
+import dionysies.Tournoi;
 
 class Main {
   public static void main(String[] args) {
